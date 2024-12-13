@@ -1,0 +1,78 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+header{
+    background-color: rgb(255, 216, 132);
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    }
+
+h1{
+    color:rgb(243, 132, 128) ;
+    position: absolute;
+    left: 120px;
+    top: 0px;
+    line-height: 80px;
+    background-image: url(image/Logo.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: center;
+    width: 210px;
+    text-indent: -99999999px;
+}
+
+header ul{
+    position: absolute;
+    right: 5vw;
+    top: 0px;
+    line-height: 80px;
+  }
+
+header li{
+    display: inline;
+    margin-right: 4vw;
+}
+
+header a{
+    color: rgb(252, 113, 113);
+text-decoration: none;
+
+}     
+header a:hover{
+    color: rgb(221, 223, 106);
+    text-decoration: underline;
+}
+  .news{
+      background-color: rgb(65, 75, 83);
+      color: rgb(252, 252, 252);
+      height: 85vh;
+      background-image:url(banner.png) ;
+      background-repeat: no-repeat;
+      background-size: cover ;
+      background-position:center ;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+
+  }
+  .news h2{
+      font-size: 60px;
+
+  }
+  .news p{
+      color: rgb(73, 73, 73);
+      font-size: 18px;
+      margin: 25px 0;
+  }
+
+  .news a{
+      color: rgb(255, 255, 255);
+      text-decoration: none;
+      border: 1px solid #acacac;
+      padding: 10px 20px;
+      border-radius: 5px;
+  }
